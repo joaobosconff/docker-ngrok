@@ -1,6 +1,6 @@
 # Ngrok Docker Image 
 
-This is a fork of the [shkoliar/ngrok](https://hub.docker.com/r/shkoliar/ngrok) image, adding ARM architecture support.
+This is a fork of the [shkoliar/ngrok](https://hub.docker.com/r/shkoliar/ngrok) image, adding ARM64, 386 and ARMv6 architecture support.
 
 Ngrok version : 3.29.0
 
