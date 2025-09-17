@@ -1,4 +1,4 @@
-FROM alpine as ngrok
+FROM alpine AS ngrok
 ARG TARGETPLATFORM
 
 RUN apk add --no-cache --virtual .bootstrap-deps ca-certificates
@@ -18,7 +18,7 @@ RUN rm -rf /var/cache/apk/*
 
 FROM busybox:glibc
 
-LABEL maintainer="Dmitry Shkoliar @shkoliar"
+LABEL maintainer="Joao B @joaobosconff"
 
 COPY --from=ngrok /ngrok /bin/ngrok
 COPY start.sh /

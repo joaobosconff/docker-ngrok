@@ -2,6 +2,8 @@
 
 This is a fork of the [shkoliar/ngrok](https://hub.docker.com/r/shkoliar/ngrok) image, adding ARM architecture support.
 
+Ngrok version : 3.29.0
+
 ## Overview
 
 This Docker image packages [ngrok](https://ngrok.com), a service that exposes local environments to the public internet through secure tunnels. Built on the official [busybox:glibc](https://hub.docker.com/_/busybox) base image, it maintains a minimal footprint by using only essential components.
