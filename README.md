@@ -2,6 +2,8 @@
 
 This is a fork of the [shkoliar/ngrok](https://hub.docker.com/r/shkoliar/ngrok) image, adding ARM64, 386 and ARMv6 architecture support.
 
+Thanks shkoliar !
+
 Ngrok version : 3.29.0
 
 ## Overview
